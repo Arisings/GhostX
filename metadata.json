@@ -1,0 +1,11 @@
+{
+    "name": "GhostX",
+    "description": "Various ghost block/item utilities. Made for educational purposes, use at your own risk; these utilities can possibly violate server rules if used in the wrong way!",
+    "creator": "Arisings",
+    "version": "0.0.1",
+    "entry": "index.js",
+    "requires": [
+        "Vigilance",
+        "RenderLib"
+    ]
+}
