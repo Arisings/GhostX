@@ -147,7 +147,7 @@ register('command', (...params) => {
     } else if (mode === "give") {
         if (params.length < 2) {
             notify("&cInvalid Usage: /ghostx give <nbt>", false)
-        } else if (params.length === 2 && params[1].startsWith("{")) { // /ghostx give <nbt>
+        } else if (params.length === 2 && params[1].startsWith("{") || params[1].toLowerCase() === "clipboard") { // /ghostx give <nbt>
             try {
                 if(params[1].toLowerCase() === "clipboard") params[1] = getClipboardContents();
                 let item = getItemFromNBT(params[1]);
