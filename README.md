@@ -42,8 +42,7 @@ Keep in mind that on most servers being in ghost creative and spectator modes wi
 
 ![image](https://github.com/Arisings/GhostX/assets/96034376/d3448962-2de6-466d-b032-0035dc5b5ca2)
 
-## Commands
-# GhostX Commands
+## GhostX Commands
 Here is a list of available commands for the GhostX module:
 (Note: the `/gx` alias can be used in place of `GhostX` at any time)
 
