@@ -10,7 +10,7 @@ import { getGamemode } from './utils/getGamemode.js';
 import { getGamemodeFromName } from './utils/getGamemodeFromName.js';
 import { getGamemodeFromInt } from './utils/getGamemodeFromInt.js';
 import getItemFromNBT from './utils/getItemFromNBT.js';
-import getClipboardContents from './getClipboardContents.js';
+import getClipboardContents from './utils/getClipboardContents.js';
 
 const toggleDisplay = new Display();
 toggleDisplay.setRenderLoc(1, 1);
